@@ -1,0 +1,19 @@
+/* 
+.form-control {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-label {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.limit-text-width {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}

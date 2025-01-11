@@ -1,0 +1,8 @@
+<div class="container mt-5 limit-text-width">
+    <h2 class="text-center"><%= post.title %></h2>
+    <% post.body.split(/\r?\n/).forEach(paragraph => { %>
+      <% if (paragraph.trim()) { %> <!-- Skip empty lines -->
+        <p><%= paragraph %></p>
+      <% } %>
+    <% }); %>
+  </div>
