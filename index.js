@@ -4,7 +4,6 @@ import { dirname, join} from "path";
 import { fileURLToPath } from "url";
 import path from "path";
 import nodemailer from "nodemailer";
-import fetch from "node-fetch";
 import fs from "fs";
 
 const app = express();
